@@ -1,0 +1,34 @@
+package main.sigaapi.model;
+
+import javax.persistence.*;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Evento {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String nome;
+    private String data;
+    private String local;
+    private String descricao;
+    private int funcionarioId;
+    private int alunoId;
+
+    @ManyToOne
+    private Funcionario funcionario;
+
+    @ManyToOne
+    private Aluno aluno;
+
+}
+
+
+

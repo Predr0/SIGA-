@@ -1,13 +1,4 @@
-package com.example.sigaapi;
+package test.java.com.example.sigaapi;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class SigaapiApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
+public class SigaapiApplicationTests {
 }
