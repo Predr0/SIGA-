@@ -1,4 +1,4 @@
-package main.java.com.example.sigaapi.Model.Entity;
+package main.java.com.example.sigaapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

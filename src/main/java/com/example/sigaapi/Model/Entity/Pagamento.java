@@ -1,12 +1,10 @@
-package main.sigaapi.model;
+package main.java.com.example.sigaapi.Model.Entity;
 
 import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Entity
 @Data

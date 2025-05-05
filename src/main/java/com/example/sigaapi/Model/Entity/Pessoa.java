@@ -1,4 +1,4 @@
-package main.sigaapi.model;
+package main.java.com.example.sigaapi.Model.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
